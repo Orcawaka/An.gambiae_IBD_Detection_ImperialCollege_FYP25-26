@@ -1,1 +1,0 @@
-# An.gambiae_IBD_Detection_ImperialCollege_FYP25-26
