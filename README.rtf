@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Arial-BoldMT;\f1\fswiss\fcharset0 ArialMT;\f2\froman\fcharset0 Times-Roman;
+\f3\froman\fcharset0 Times-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid202\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12380\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 # Final Year Project: Benchmarking Identity-by-Descent Segment Detection in Highly Polymorphic Anopheles gambiae Populations Using Coalescent Simulations
+\f1\b0\fs28 \outl0\strokewidth0 \
+
+\fs24 \outl0\strokewidth0 \strokec2 This repository contains the complete codebase, simulation scripts, and analysis pipelines developed for my undergraduate thesis at Imperial College London (2026)
+\f2 .
+\f1\fs28 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 1. Environment & Prerequisites:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 To replicate the results, ensure you have the following environments and tools installed:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Python 3.13.9 (with libraries: msprime, tskit, pandas, numpy and matplotlib.)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Java v21.0.10 (required for executing toolchains in bash_scripts)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 2. Project Structure:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+/data - Contains simulation input/output files.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}/result - Contains IBD algorithmic files (IBDseq, Refined IBD) and figures.\expnd0\expndtw0\kerning0
+\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+01_Baseline_Simulation.ipynb - Core simulation script.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+README.rtf - This instruction file.\
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b0 bash_scripts - Contains the exact command lines used to execute IBDseq and Refined IBD via the terminal (bash).
+\f0\b \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 3. Execution Steps:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b0 \expnd0\expndtw0\kerning0
+Step 1: Run 01_Baseline_Simulation.ipynb to simulate genetic data. (Outputs are saved using relative paths in the /data folder).\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls3\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}Note: To test different simulation scenarios, simply modify the recombination rate (r) and mutation rate (\'b5) parameters in the setup cell of this notebook.\
+\pard\tx220\tx720\tx1440\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 {\listtext	\uc0\u8226 	}Step 2: Run the command lines for IBDseq and Refined IBD (The exact command lines I typed in terminal are all recorded in bash_scripts.rtf).\
+{\listtext	\uc0\u8226 	}Step 3: Run '02_IBDcallerAnalysis.ipynb' to process the tool outputs and plot length distribution figures.\
+{\listtext	\uc0\u8226 	}Step 4: Run '03_Power&Accuracy.ipynb' to process the tool outputs and evaluate performance against the ground truth.\
+\pard\tx220\tx720\tx1440\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 {\listtext	\uc0\u8226 	}
+\f1\b0 Step 5: Run '04_Plotting.ipynb' to reproduce the final metrics plots.\
+\pard\tx720\tx1440\pardeftab720\partightenfactor0
+
+\f0\b \cf0 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 4. Notice:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 To run simulations with different recombination rates (r) and mutation rates (\'b5), simply modify the recombination_rate and mutation_rate parameters
+\f0\b \outl0\strokewidth0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls5\ilvl0
+\f1\b0 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f3\b\fs28 \cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \
+}
