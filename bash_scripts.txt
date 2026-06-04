@@ -1,0 +1,11 @@
+# Step 1: Run IBDSeq
+java -Xmx4g -jar ibdseq.r1206.jar \
+vcf=../data/An_Simulated.vcf \
+out=../results/anopheles_ibd \
+nthreads = 4
+
+# Step 2: Run Refined IBD
+java -Xmx8000m  jar refined-ibd.17Jan20.102.jar \
+gt=../data/An_Simulated.vcf \
+out=../results/anopheles_refinedibd_output \
+nthreads = 4
